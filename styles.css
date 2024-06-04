@@ -137,22 +137,3 @@ body {
 .lightbox__button:focus {
     background-color: rgba(0, 0, 0, 0.5);
 }
-
-.lightbox__image {
-    display: block;
-    width: auto;
-    height: auto;
-    max-height: 100vh;
-    max-width: 100vw;
-    transition: opacity var(--animation-duration) var(--timing-function), transform var(--animation-duration) var(--timing-function);
-}
-
-.lightbox__image.fade-out {
-    opacity: 0;
-    transform: scale(0.95);
-}
-
-.lightbox__image.fade-in {
-    opacity: 1;
-    transform: scale(1);
-}
